@@ -1,7 +1,7 @@
 <?php
 
 // Initiation des zones dynamiques
-$content = "Hop";
+$content = "Coucou";
 
 // PARAMETRES DE CONNEXION
 define('DB_NAME', "photo_hunter");

@@ -2,20 +2,16 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <?php include '../app/views/templates/partials/_head.php'; ?>
 </head>
 
-<body>
+<body class="bg-gray-300">
 
-    <header></header>
-    <main>
-        <?php echo $content ?>
-        <?php var_dump($connexion) ?>
+    <?php include '../app/views/templates/partials/_nav.php'; ?>
 
-    </main>
-    <footer></footer>
+    <?php include '../app/views/templates/partials/_main.php'; ?>
+
+    <?php include '../app/views/templates/partials/_footer.php'; ?>
 
 </body>
 
